@@ -12,7 +12,7 @@ def Plot(data):
     #print(y[0])
     return(x,y)
 
-
+print("hi")
 plt.figure(6)                                                       #Plotting Transmission data
 plt.plot(Plot(data)[0],Plot(data)[1], '.',markersize=2.5)
 plt.title('Silicon wafer, transmission spectrum')
