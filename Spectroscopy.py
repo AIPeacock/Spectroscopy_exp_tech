@@ -9,7 +9,7 @@ print(yes)
 
 data0 = np.loadtxt('Red_filter_air(UDS).TXT',skiprows=50)#
 data1 = np.loadtxt('Red_filter_silica(UDS).TXT',skiprows=50)
-data2= np.loadtxt('Aaron_filter_2_silica(UDS).TXT',skiprows=50)
+data2 = np.loadtxt('Aaron_filter_2_silica(UDS).TXT',skiprows=50)
 data3 = np.loadtxt('Air(UDS).TXT',skiprows=50)
 data4 = np.loadtxt('Jiaqi_filter_1_silica_attempt2(UDS).TXT',skiprows=50)
 data5 = np.loadtxt('Silicon_mirrors(UDS).TXT',skiprows=50)
